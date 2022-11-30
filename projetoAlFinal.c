@@ -113,4 +113,3 @@ int main(){
     printf("\nPorcentagem de pessoas maiores de idade em relação ao total: %.2f%%\n", (float)qtdMaioresIdadeMasc/(float)numeroPessoas*100);
 
     return 0;
-}
