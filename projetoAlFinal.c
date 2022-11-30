@@ -1,3 +1,7 @@
+//Nome: André Luís Cordeiro Porto da Silva
+//Matricula: UC 22421199
+//Curso: Ciência da Computação
+
 #include <stdio.h>
 #include <locale.h>
 
