@@ -3,5 +3,5 @@
 | Alunos | Curso |
 | --- | --- |
 | Rodrigo Boaventura | Ciência da Computação |
-| AndreLuisALCPS | Ciência da computação |
-| NycollasMartins | Ciência da computação |
+| Andre Luis | Ciência da computação |
+| Nycollas Martins | Ciência da computação |
