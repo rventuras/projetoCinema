@@ -1,3 +1,7 @@
+//Nome completo: Rodrigo Boaventura
+//Matrícula: UC22103134
+//Curso: Ciência da Computação
+
 #include <stdio.h>
 #include <locale.h>
 
