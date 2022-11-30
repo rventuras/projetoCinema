@@ -1,5 +1,5 @@
-//Nome completo: Rodrigo Boaventura
-//Matrícula: UC22103134
+//Nome completo: Nycollas Passos Martins
+//Matrícula: UC2011002500
 //Curso: Ciência da Computação
 
 #include <stdio.h>
