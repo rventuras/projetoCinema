@@ -23,13 +23,13 @@ int main(){
     do{
       printf("Digite a quantidade de sessões: ");
       scanf("%d", &numeroSessoes);
-    }while(numeroSessoes != 2);
+    }while(numeroSessoes != 1);
     
     // Solicita a quantidade de pessoas que assistiram ao filme, não aceitando valor inferior a 0 (zero).
     do{
       printf("Digite a quantidade de pessoas que assistiram ao filme: ");
       scanf("%d", &numeroPessoas);
-    }while(numeroPessoas < 0);
+    }while(numeroPessoas < 1);
     
     // Solicite ao usuário o nome do filme
     printf("Digite o nome do filme: ");
