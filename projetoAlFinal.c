@@ -23,7 +23,7 @@ int main(){
     do{
       printf("Digite a quantidade de sessões: ");
       scanf("%d", &numeroSessoes);
-    }while(numeroSessoes != 1);
+    }while(numeroSessoes != 2);
     
     // Solicita a quantidade de pessoas que assistiram ao filme, não aceitando valor inferior a 0 (zero).
     do{
