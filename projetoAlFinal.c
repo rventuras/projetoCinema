@@ -8,14 +8,15 @@
 //Matricula: UC 22421199
 //Curso: Ciência da Computação
 
+
 #include <stdio.h>
 #include <locale.h>
 
 int main(){
     int numeroSessoes, numeroPessoas, idade, totalInteiras, totalMeias;
     char sexo, resultado;
-    float totalArrecadado;
-    int qtdCriancas, qtdAdolescentes, qtdAdultos, qtdIdosos, qtdMaioresIdadeMasc, qtdMaioresIdadeFem;
+    float totalArrecadado, porcentagem;
+    int qtdCriancas, qtdAdolescentes, qtdAdultos, qtdIdosos, qtdMaioresIdadeMasc, qtdMaioresIdadeFem, qntMaiores;
     char nomeFilme[50];
     
     setlocale (LC_ALL, "Portuguese");
@@ -29,7 +30,7 @@ int main(){
     do{
       printf("Digite a quantidade de pessoas que assistiram ao filme: ");
       scanf("%d", &numeroPessoas);
-    }while(numeroPessoas < 1);
+    }while(numeroPessoas < 2);
     
     // Solicite ao usuário o nome do filme
     printf("Digite o nome do filme: ");
@@ -120,6 +121,9 @@ int main(){
     }
 
     // Nova funcionalidade: mostra a porcentagem de pessoas maiores de idade em relação ao total
-    printf("\nPorcentagem de pessoas maiores de idade em relação ao total: %.2f%%\n", (float)qtdMaioresIdadeMasc/(float)numeroPessoas*100);
+    qntMaiores = qtdMaioresIdadeMasc + qtdMaioresIdadeFem;
+    porcentagem = (qntMaiores/numeroPessoas) * 100;
+    printf("\nPorcentagem de pessoas maiores de idade em relação ao total: %.2f%%\n", porcentagem);
 
     return 0;
+}
